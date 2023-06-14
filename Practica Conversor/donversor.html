@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="conversor.css">
+</head>
+<body>
+  
+    <form id="convertdp" action="" autocomplete="off" method="post">
+        <fieldset>Dolares a Pesos MXN <br>
+            
+         <label for="">Valor del Dolar:</label> 
+         <input type="number" id="a" placeholder="Valor del dolar">
+
+         <label for="">Dolares:</label> 
+         <input type="number" id="b" placeholder="Valor del dolar">
+
+         <label hidden="">Pesos:</label>
+         <input hidden type="number" id="c" placeholder="Ingrese el valor a convertir">
+         
+         <input type="button" value="Calcular"id="dp"></input>
+         <div id="re1"></div>
+        </fieldset>
+        <br>
+    </form>
+    <form action="" id="convertpd">
+        <fieldset>Pesos MXN a Dolares <br>
+        <label for="">Valor del Dolar:</label> 
+        <input type="number" id="a1" placeholder="Valor del dolar"><br>
+            
+        <label for="">Pesos:</label>      
+        <input type="number" id="c1" placeholder="Valor del dolar">
+
+        <label hidden="">Dolares:</label>
+        <input hidden="number" id="b" placeholder="Ingrese el valor a convertir">
+
+        <input type="button" value="Calcular"id="pd"></input>
+        <div id="r2"></div>
+        </fieldset>
+        
+    </form>
+    <center>
+    <div id="btn">
+    <input type="button" value="Limpiar" id="clean">
+    </div>
+</center>
+    <script src="conversor.js"></script>
+
+
+</body>
+</html>
